@@ -14,3 +14,25 @@ Este programa em Python calcula o valor final de uma compra aplicando diferentes
   - De R$ 6.000 até R$ 9.999 → **Sem desconto (nenhuma regra definida)**
   - A partir de R$ 10.000 → **11% de desconto**
 - Exibe o valor original e o valor com desconto, se aplicável.
+## 🧠 Lógica usada
+
+O programa utiliza:
+
+- `input()` para capturar dados do usuário
+- `int()` para conversão dos valores numéricos
+- Condições com `if`, `elif`, `else` para aplicar regras de desconto
+- `f-strings` e `:.2f` para formatação do valor em reais
+
+---
+
+## 🚀 Como usar
+
+1. Tenha Python 3 instalado.
+2. Baixe ou clone o repositório.
+3. Execute o código no terminal com:
+   ```bash
+   python desconto.py
+📋 Observações
+Compras acima de R$ 6.000 e abaixo de R$ 10.000 ainda não possuem desconto definido no código.
+
+O valor original e o valor com desconto são sempre mostrados para comparação.

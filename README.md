@@ -23,15 +23,6 @@ O programa utiliza:
 - Condições com `if`, `elif`, `else` para aplicar regras de desconto
 - `f-strings` e `:.2f` para formatação do valor em reais
 
----
-
-## 🚀 Como usar
-
-1. Tenha Python 3 instalado.
-2. Baixe ou clone o repositório.
-3. Execute o código no terminal com:
-   ```bash
-   python desconto.py
 📋 Observações
 Compras acima de R$ 6.000 e abaixo de R$ 10.000 ainda não possuem desconto definido no código.
 
